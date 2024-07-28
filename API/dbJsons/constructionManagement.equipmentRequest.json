@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "651fefbf042c4f44c495130f"
+  },
+  "projectId": "650acc92757b84225680cd41",
+  "taskId": "650d33a02e5c629efe2e445c",
+  "equipmentId": "651eaaa14048a222a13538f3",
+  "quantity": "2",
+  "requester": "650a8fb2e0a86eaa556939bb",
+  "fromDate": {
+    "$date": "2023-10-11T10:37:18.857Z"
+  },
+  "toDate": {
+    "$date": "2023-10-20T10:37:21.885Z"
+  },
+  "location": "working site",
+  "status": "pending",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-06T11:30:07.093Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T11:30:07.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651ffcb4042c4f44c495133e"
+  },
+  "projectId": "650acc92757b84225680cd41",
+  "taskId": "650d33a02e5c629efe2e445c",
+  "equipmentId": "651f8c5a1bd03251a23473a4",
+  "quantity": "3",
+  "requester": "650a8fb2e0a86eaa556939bb",
+  "fromDate": {
+    "$date": "2023-10-11T12:24:58.485Z"
+  },
+  "toDate": {
+    "$date": "2023-10-20T12:25:02.779Z"
+  },
+  "location": "working site",
+  "status": "approved",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-06T12:25:24.734Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-09T10:45:11.550Z"
+  },
+  "__v": 0,
+  "attachment": [
+    "images/equipmentRequest/651ffcb4042c4f44c495133e/aa.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6523ce5796394361f05c9253"
+  },
+  "projectId": "650acc92757b84225680cd41",
+  "taskId": "650d33a02e5c629efe2e445c",
+  "equipmentId": "651eaaa14048a222a13538f3",
+  "quantity": "4",
+  "requester": "650a8fb2e0a86eaa556939bb",
+  "fromDate": {
+    "$date": "2023-10-20T09:28:24.936Z"
+  },
+  "toDate": {
+    "$date": "2023-10-25T09:28:29.478Z"
+  },
+  "location": "Test",
+  "status": "pending",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-09T09:56:39.377Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-09T09:56:39.377Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6523ce8996394361f05c925d"
+  },
+  "projectId": "650acc92757b84225680cd41",
+  "taskId": "650d33a02e5c629efe2e445c",
+  "equipmentId": "651f8c5a1bd03251a23473a4",
+  "quantity": "3",
+  "requester": "650a8fb2e0a86eaa556939bb",
+  "fromDate": {
+    "$date": "2023-10-11T09:57:21.019Z"
+  },
+  "toDate": {
+    "$date": "2023-10-20T09:57:23.987Z"
+  },
+  "location": "Test",
+  "status": "approved",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-09T09:57:29.994Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-09T10:45:27.723Z"
+  },
+  "__v": 0,
+  "attachment": [
+    "images/equipmentRequest/6523ce8996394361f05c925d/aa.jpg"
+  ]
+}]

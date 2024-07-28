@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "651eaaa14048a222a13538f3"
+  },
+  "equipmentName": "651e98811b4b813849516b7d",
+  "equipmentType": "heavyConstructionEquipment",
+  "totalQuantity": "10",
+  "manufactureDate": {
+    "$date": "2022-10-06T12:22:14.061Z"
+  },
+  "purchaseDate": {
+    "$date": "2023-10-11T12:22:19.951Z"
+  },
+  "purchasePrice": "1000000",
+  "isRental": false,
+  "rentalPricePerDay": "0",
+  "currentLocation": "Main Site",
+  "notes": "3 At Nikol Site",
+  "status": "available",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-05T12:22:57.280Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-05T12:22:57.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f8c5a1bd03251a23473a4"
+  },
+  "equipmentName": "651e98901b4b813849516b80",
+  "equipmentType": "heavyConstructionEquipment",
+  "totalQuantity": "15",
+  "manufactureDate": {
+    "$date": "2021-10-20T04:24:22.809Z"
+  },
+  "purchaseDate": {
+    "$date": "2023-03-15T04:24:44.157Z"
+  },
+  "purchasePrice": "4000000",
+  "isRental": false,
+  "rentalPricePerDay": "0",
+  "currentLocation": "Main Site",
+  "notes": "At Main Site",
+  "status": "available",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-06T04:26:02.886Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T04:26:02.886Z"
+  },
+  "__v": 0
+}]

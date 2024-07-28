@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6507f37e157163c71a80bf74"
+  },
+  "roleId": "6507d6507f88e9cf15dae16c",
+  "userId": "6507f377157163c71a80bf71",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-18T06:51:42.531Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-18T06:51:42.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650a8fb9e0a86eaa556939be"
+  },
+  "roleId": "650306afaed0743ed75019bd",
+  "userId": "650a8fb2e0a86eaa556939bb",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-20T06:22:49.860Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-20T06:22:49.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650a8feee0a86eaa556939c7"
+  },
+  "roleId": "650306afaed0743ed75019bd",
+  "userId": "650a8fece0a86eaa556939c4",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-20T06:23:42.617Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-20T06:23:42.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650c2371670018ab83245f7d"
+  },
+  "roleId": "65030708aed0743ed75019c0",
+  "userId": "650c2371670018ab83245f7b",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-21T11:05:21.105Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-21T11:05:21.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6512791c3a9c239ffc3c8191"
+  },
+  "roleId": "65030708aed0743ed75019c0",
+  "userId": "6512791c3a9c239ffc3c818f",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-26T06:24:28.454Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-26T06:24:28.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65128ed53a9c239ffc3c820f"
+  },
+  "roleId": "65030708aed0743ed75019c0",
+  "userId": "65128ed53a9c239ffc3c820d",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-26T07:57:09.725Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-26T07:57:09.725Z"
+  },
+  "__v": 0
+}]

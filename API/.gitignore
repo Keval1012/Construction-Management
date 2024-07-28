@@ -1,6 +1,3 @@
 /node_modules
 /run.cjs
 /web.config
-/dbJsons
-
-/.env

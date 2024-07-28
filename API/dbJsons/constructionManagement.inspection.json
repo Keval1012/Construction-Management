@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "651c06792aab6e6896c88ab2"
+  },
+  "projectId": "650acc92757b84225680cd41",
+  "inspectionType": "dailySiteInspection",
+  "description": "Testing",
+  "location": "`tESTING",
+  "inspectionDate": {
+    "$date": "2023-10-03T11:20:35.000Z"
+  },
+  "inspector": "650c2371670018ab83245f7b",
+  "document": [
+    "images/inspection/650acc92757b84225680cd41/aa.jpg"
+  ],
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-03T12:18:01.249Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-03T12:18:01.249Z"
+  },
+  "__v": 0,
+  "status": "active"
+}]

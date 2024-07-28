@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "650306afaed0743ed75019bd"
+  },
+  "name": "builder",
+  "displayName": "Builder",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-14T13:12:15.650Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-14T13:12:15.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65030708aed0743ed75019c0"
+  },
+  "name": "employee",
+  "displayName": "Employee",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-14T13:13:44.540Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-14T13:13:44.540Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507d6507f88e9cf15dae16c"
+  },
+  "name": "hostAdmin",
+  "displayName": "Host Admin",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-09-18T04:47:12.255Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-18T04:47:12.255Z"
+  },
+  "__v": 0
+}]

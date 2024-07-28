@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "651e98811b4b813849516b7d"
+  },
+  "name": "bulldozer",
+  "displayName": "Bulldozer",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-05T11:05:37.642Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-05T11:05:37.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651e98901b4b813849516b80"
+  },
+  "name": "truck",
+  "displayName": "Truck",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-10-05T11:05:52.268Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-05T11:05:52.268Z"
+  },
+  "__v": 0
+}]
