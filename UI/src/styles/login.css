@@ -1,0 +1,15 @@
+.loginForm {
+    text-align: left ;
+    /* margin: 8% 2%; */
+    /* border: 1px solid var(--primary-color); */
+    box-shadow: 0 0 10px 10px lightgray;
+    border-radius: 3px;
+    padding: 2%;
+}
+
+
+.loginForm .ant-col .ant-form-item-label {
+    /* width: 35%; */
+    width: 35%;
+    text-align: left;
+}

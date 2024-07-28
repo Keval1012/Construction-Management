@@ -1,0 +1,27 @@
+.dataTable {
+    width: 100%;
+    margin-top: 2%;
+    /* box-shadow: 1px 1px 10px #c2c2c2; */
+    border-radius: 5px;
+    /* border: 1px solid lightgray; */
+}
+
+.tableEditIcon {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.tableDeleteIcon {
+    color: darkred;
+    font-size: 18px;
+}
+
+.paginationMainRow {
+    width: 95%;
+    justify-content: flex-end;
+}
+
+.paginationDiv {
+    /* background-color: aliceblue; */
+    margin-top: 1%;
+}

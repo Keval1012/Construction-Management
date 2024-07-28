@@ -1,0 +1,114 @@
+.addTaskBtn {
+    min-width: 10% !important;
+}
+
+.ant-table-tbody > tr > td {
+    border: none !important;
+}
+
+.dashboardCard {
+    margin: 2% 2%;
+    box-shadow: 0 0 5px 2px lightgray !important;
+}
+
+.dashboardCard h3, .dashboardCard h4, .dashboardCard h1, .dashboardCard h2 {
+    margin: 0;
+}
+
+.dashboardCardHeight {
+    margin-top: 1%;
+    min-height: 20.4rem;
+}
+
+.dashboardCardMargin {
+    margin-left: 0.5%;
+    margin-right: 1.4%;
+}
+
+.docRowSpace {
+    margin-top: 1%;
+}
+
+.dashboardCardSpace {
+    margin-left: 3%;
+}
+
+.docModalIcon {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5% 10%;
+}
+
+.cloudDownloadIcon {
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px lightgray;
+    position: absolute;
+    right: 3vw;
+    background-color: #fff;
+    padding: 1%;
+    margin: 0 !important;
+}
+
+.smallCardMargin {
+    margin-left: 6%;
+}
+
+.cardMargin {
+    margin-left: 5%;
+}
+
+.workloadprojectshow {
+    height: 17rem;
+    margin-top: 1.7%;
+}
+
+.rateStyle {
+    margin-left: 3%;
+}
+
+.complaintCardStyle {
+    margin-left: 3%;
+}
+
+.workloadMargin {
+    margin-left: 1.5%;
+}
+
+.attachStyle {
+    margin-top: 0;
+}
+
+.docViewerStyle {
+    width: 72vw;
+    height: 55vh;
+}
+
+/* --------------- Team Modal ----------------- */
+
+.modal { 
+    height: 70vh; 
+    width: 100%;
+}
+.modal-header { 
+    height: 7vh;
+}
+.modal-body { 
+    height: 50vh; 
+    overflow-y: auto;
+}
+
+
+/* --------------------- Employee Project --------------- */
+.nestedTableRow {
+    background-color: #f1f1f1 !important;
+}
+.nestedTableRow .ant-table-cell-row-hover {
+    background-color: #f1f1f1 !important;
+}
+
+/* ---------------------- Equipment Request ---------------------- */
+
+.countTag {
+    font-size: 16px !important;
+    padding: 1% 3%;
+}

@@ -1,0 +1,28 @@
+.headerCardCol {
+    box-shadow: 0 0 5px 1px lightgrey;
+    width: 15rem;
+    margin: 0 1%;
+    padding: 1%;
+}
+.headerCardDiv h2 {
+    font-weight: 400;
+    margin-bottom: 2% !important;
+}
+.headerCardDiv h3 {
+    font-weight: 400;
+    margin-top: 10px !important;
+}
+.divider {
+    margin: 0;
+}
+.listCol {
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 2% 1%;
+    box-shadow: 0 0 5px 1px lightgray;
+    padding: 2%;
+}
+.categoryListDiv {
+    width: 100%;
+}

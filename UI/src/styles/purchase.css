@@ -1,0 +1,23 @@
+.poDetailHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4% 0;
+}
+
+.insideDetailDiv {
+    white-space: pre-wrap;
+    width: 30%;
+}
+
+.poDetailHeader p, .poDetailHeader h2, .poDetailHeader h3, .poDetailHeader h4, .tableFooter h4 {
+    margin: 0;
+}
+
+.itemDetailTable {
+    margin: 4% 0;
+}
+
+.itemDetailTable .ant-table-body {
+    min-height: 150px;
+}

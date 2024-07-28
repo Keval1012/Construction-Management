@@ -1,0 +1,26 @@
+.eqptReqModal h4 {
+    margin: 0;
+}
+
+.rejectBtn {
+    width: 15%;
+    border-color: red;
+    color: red;
+    margin: 0 2%;
+}
+.rejectBtn:hover {
+    border-color: red !important;
+    color: red !important;
+}
+
+.approveBtn {
+    /* border-color: cornflowerblue;
+    color: cornflowerblue; */
+    border-color: green;
+    color: green;
+    width: 15%;
+}
+
+.uplaodRow {
+    margin-top: 4%;
+}

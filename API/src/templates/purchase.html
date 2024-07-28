@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pdf Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.0/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    zoom: 0.75;
+  }
+
+  .flexrow {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .table thead th {
+    color: #6064b9 !important;
+  }
+
+  .contentHeader {
+    background-color: #6064b9;
+    font-weight: bold;
+    padding: 3px 50px 3px 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tdData {
+    word-wrap: break-word;
+    min-width: 20px;
+    max-width: 300px;
+  }
+
+  .itemTD {
+    width: 300px;
+  }
+
+  .itemTable {
+    min-height: 500px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    justify-content: space-between;
+  }
+
+  .box1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    /* border: 1px solid black; */
+    padding: 2%;
+    width: 80%;
+    /* margin: 1%; */
+    /* height: 100px; */
+  }
+  
+  .box2 {
+    /* border: 1px solid black; */
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    /* margin-left: 40%; */
+    /* width: 200px; */
+    padding: 2%;
+    flex: 2;
+    /* height: 100px; */
+  }
+
+  .personBox {
+    /* border: 1px solid black; */
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    width: 50%;
+    padding: 2%;
+    /* height: 150px; */
+  }
+
+  .shippingBox {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    flex: 2;
+    padding: 2%;
+    width: 50%;
+    /* height: 150px; */
+  }
+  
+  .tableBottomDiv {
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex;
+    display: -webkit-box;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
+
+  .subTotalDiv {
+    width: 20%;
+  }
+
+  .subTotalLabel {
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .subTotalLabel div {
+    /* text-align: left; */
+    font-size: 16px;
+    width: 50% !important;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+
+</style>
+
+<body>
+  <div class="mainDiv">
+    <h1 class="mainHeader">Purchase Invoice</h1>
+    <div class="header2 wrapper">
+      <div class="companyInfo2 box1">
+        <h2 class="noMargin">{{products.companyName}}</h2>
+        <div class="labelMargin"><span class="bold">City: </span>{{products.companyCity}}</div>
+        <div class="labelMargin"><span class="bold">Phone: </span>{{products.companyPhone}}</div>
+        <div class="labelMargin"><span class="bold">Email: </span>{{products.companyEmail}}</div>
+      </div>
+      <div class="orderInfo2 box2">
+        <div class="labelMargin">
+          <span class="bold">Date: </span>{{products.billDate}}
+        </div>
+        <div class="labelMargin">
+          <span class="bold">BillNo: </span>{{products.voucherNo}}/{{products.labelNo}}
+        </div>
+      </div>
+    </div>
+    <div class="accountDetailDiv wrapper">
+      <div class="accountDetail personBox">
+        <h3 class="contentHeader noMargin">Person Details</h3>
+        <div class="labelMargin extraMargin"><span class="bold">Shri/Smt. : </span></div>
+        <div class="labelMargin extraMargin"><span class="bold">Address : </span></div>
+        <div class="labelMargin extraMargin"><span class="bold">Phone No. : </span></div>
+      </div>
+      <div class="shippingBox"></div>
+    </div>
+    <div class="itemTable">
+      <table border="0" class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col" class="tableTH w-20">No.</th>
+            <th scope="col" class="tableTH w-20">Item</th>
+            <th scope="col" class="tableTH w-20">Gross Wt.</th>
+            <th scope="col" class="tableTH w-20">Net Wt.</th>
+            <th scope="col" class="tableTH w-20">Pcs.</th>
+            <th scope="col" class="tableTH w-20">Metal Amt.</th>
+            <th scope="col" class="tableTH w-20">Labour Amt.</th>
+            <th scope="col" class="tableTH w-20">Amount</th>
+          </tr>
+        </thead>
+        <!-- <tbody>
+                  ${allTr.join('')}
+              </tbody> -->
+        <tbody>
+          {{#each products.prodlist}}
+          <tr>
+            <!-- <td width="10%">
+                    <img height="70" width="70" src="{{this.imgurl}}" alt="">
+                  </td> -->
+            <th class="tdData" scope="row">{{this.no}}</th>
+            <td class="tdData itemTD">{{this.name}}</td>
+            <td class="tdData">{{this.grossWt}}</td>
+            <td class="tdData">{{this.netWt}}</td>
+            <td class="tdData">{{this.pieces}}</td>
+            <td class="tdData">{{this.metalAmount}}</td>
+            <td class="tdData">{{this.labourAmount}}</td>
+            <td class="tdData">{{this.totalAmount}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+    <hr class="tableHR" />
+    <div class="tableBottomDiv wrapper">
+      <div class="subTotalDiv subTotalBox">
+        <div class="subTotalLabel"><div class="fDiv bold">SUBTOTAL:</div><div>{{products.itemAmountTotal}}</div></div>
+        <div class="subTotalLabel"><div class="fDiv bold">TAX RATE:</div><div>-</div></div>
+        <div class="subTotalLabel"><div class="fDiv bold">TAX:</div><div>{{products.gst}}</div></div>
+        <div class="subTotalLabel"><div class="fDiv bold">SHIPPING:</div><div>-</div></div>
+        <div class="subTotalLabel"><div class="fDiv bold">OTHER:</div><div>-</div></div>
+        <hr />
+        <div class="subTotalLabel"><div class="fDiv bold">TOTAL:</div><div class="bold">{{products.netAmount}}</div></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.detailCard {
+    border-radius: 7px;
+}
+.listAddIcon {
+    display: flex;
+    margin-bottom: 5;
+    color: blue;
+    font-size: 20px;
+}
+.listRemoveIcon {
+    /* display: flex;
+    margin-bottom: 30; */
+    color: red;
+    margin-top: 0.3rem;
+}

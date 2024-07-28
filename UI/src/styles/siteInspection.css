@@ -1,0 +1,20 @@
+.issueCardDiv {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.issueCardDiv h3, .issueCardDiv p {
+    margin: 0;
+}
+
+.cardContentCol {
+    text-align: left !important;
+}
+
+.cardIndexCol {
+    margin-bottom: auto;
+}
+
+.cardIcon {
+    margin: 0 8%;
+}

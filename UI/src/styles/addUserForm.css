@@ -1,0 +1,18 @@
+
+.addUserForm {
+    text-align: left !important;
+}
+
+.addUserForm .ant-col .ant-form-item-label {
+    /* width: 35%; */
+    width: 50%;
+    text-align: left;
+}
+
+.userFormContent {
+    min-height: 50vh;
+}
+
+.companyListHeader {
+    margin-bottom: 20px;
+}

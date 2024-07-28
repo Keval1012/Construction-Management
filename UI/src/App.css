@@ -1,0 +1,264 @@
+.App {
+  text-align: center;
+}
+
+.ant-menu-item-selected {
+  color: #fff !important;
+}
+
+.sidebarHamburgerBtn {
+  font-size: 16px;
+  width: 64;
+  height: 64;
+}
+
+.d-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+:root {
+  --sidebarWidth: 50%;
+  /* --primary-color: #4046b8; */
+  --primary-color: #1d1d1d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+.secondaryHeading {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.appButton {
+  min-width: 40%;
+  margin: 0 1%;
+  font-weight: 700 !important;
+  min-height: 40px !important;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 3px;
+}
+
+.appPrimaryButton {
+  margin: 0 1%;
+  min-width: 40%;
+  font-weight: 700 !important;
+  min-height: 40px !important;
+  color: #fff;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 3px;
+  margin-right: 0;
+}
+
+.appButton:focus, .appButton:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color); 
+}
+
+.appPrimaryButton:hover {
+  color: #fff !important;
+  /* background: var(--primary-color);
+  border-color: var(--primary-color); */
+  /* background: #6064b9;
+  border-color: #6064b9; */
+  background: #1d1d1d;
+  border-color: #1d1d1d;
+}
+
+.appIcon {
+  font-size: 20px;
+  margin: 0 10%;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.formWidth {
+  min-width: 30%;
+}
+
+.insideFormBtnWidth {
+  min-width: 10%;
+}
+
+.ant-row-end {
+  text-align: end;
+}
+
+.ant-input[disabled] {
+  color: #000 !important;
+}
+
+.ant-select-selection, .ant-select-item-option-selected {
+  color: #fff !important;
+}
+
+.datePicker {
+  width: 100% !important;
+}
+
+.secondaryTitle {
+  font-weight: 500;
+}
+
+.avatarIcon {
+  font-size: 20px;
+  width: auto;
+  background-color: lightgray;
+  padding: 2%;
+  margin: 0 4%;
+  border-radius: 50%;
+  height: fit-content;
+}
+
+#image-renderer {
+  background: white !important;
+}
+
+/* ---------------------------------- Dashboard -------------------------  */
+
+.dashboardRow {
+  margin-top: 2% !important;
+}
+
+.extraFilterRow {
+  margin-top: 2% !important;
+}
+
+/* ----------------------- Layout ------------------------------ */
+
+.mainLayout {
+  height: 100vh;
+}
+
+.header {
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  margin: 0 2%;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.userIcon, .userDownArrow {
+  margin: 0 10%;
+}
+
+.userProfileDiv {
+  width: 20%;
+}
+
+.content {
+  margin: 24px 16px;
+  padding: 24;
+  /* min-height: 280; */
+  height: 280;
+  overflow-y: scroll;
+}
+
+.collapseCard {
+  box-shadow: 0 0 20px lightgray;
+  border: none;
+  margin: 2% 0;
+}
+
+.backButtonDiv {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+
+/* -------------------------------------------- Filter Box ---------------------------------------- */
+
+.filterBox .ant-form-item:where(.css-dev-only-do-not-override-9q0of6).ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+.allPageHeader {
+  text-align: left !important;
+}
+
+.filterBox {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1% 3%;
+  /* margin: 3% 0%; */
+  /* box-shadow: 1px 1px 5px #c6c6c6; */
+}
+
+.filterBox .firstRow {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.labelRangeStyle {
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.labelMargin {
+  /* margin: 0; */
+  margin-bottom: 2%;
+}
+
+.filterMargin {
+  margin-top: -2%;
+}
+
+.filterBox .secondRow {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.filterBtn {
+  margin: 0 40%;
+}
+
+/* ::-webkit-scrollbar {
+  width: 20px;
+  color: #181818;
+} */
+
+/* ----------------------------------------- Scrollbar --------------------------------- */
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #fff;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #181818;
+  background-color: #555;
+}

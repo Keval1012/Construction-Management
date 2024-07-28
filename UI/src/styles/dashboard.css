@@ -1,0 +1,257 @@
+.verticalLine {
+    border-left: 0.188em solid black;
+    height: 3.75em;
+}
+
+.verticalLine1 {
+    border-left: 0.188em solid black;
+    height: 5.3em;
+}
+
+.complaintVerticalLine {
+    border-left: 0.188em solid black;
+    height: 6vh;
+}
+
+.complaintLine {
+    margin-left: 15%;
+}
+
+.defectLine {
+    margin-left: 25%;
+}
+
+.defectVerticalLine {
+    border-left: 0.188em solid black;
+    height: 9vh;
+}
+
+.line {
+    margin-left: 25%;
+}
+
+.line1 {
+    margin-left: 40%;
+}
+
+.cardHeight {
+    height: 4.5em;
+}
+
+.progressHeight {
+    height: 13.75em;
+    text-align: center;
+}
+
+.taskCardHeight {
+    height: 6.7em;
+}
+
+.height {
+    height: 10em;
+}
+
+.taskVerticalLine {
+    border-left: 0.188em solid black;
+    height: 7em;
+}
+
+.statusPara {
+    margin-top: 0.125em;
+}
+
+.chartData {
+    height: 40vh !important;
+    /* width: 25vw; */
+    width: 18vw;
+}
+
+.customCard {
+    height: 7.1rem;
+    margin-top: 0 !important;
+}
+
+.customCard1 {
+    height: 8.5rem;
+    margin: 1.4% 3% !important;
+}
+
+.dashboardRowHeight {
+    margin-top: 1% !important;
+    margin-bottom: 2%;
+}
+
+.dashboardRowHeightProject {
+    margin-top: 2% !important;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.dashboardRowMargin {
+    margin: -0.6% -2% 0 -1.5%;
+}
+
+.taskChartHeight {
+    height: 19.4em;
+}
+
+.applyBtn {
+    min-width: 15% !important;
+}
+
+.ml2 {
+    margin-left: 2%;
+}
+
+.mr0 {
+    margin-right: 0;
+}
+
+.headerCardRow {
+    margin: 0 0.5%;
+}
+
+.lineChartDiv {
+    width: 100%;
+    height: 14rem;
+}
+
+.lineChartDivProject {
+    margin-bottom: 5%;
+}
+
+.lineChartDivProject {
+    margin-top: 0;
+}
+
+.workloadproject {
+    height: 17rem;
+}
+
+.workloadChartEditBtn {
+    margin-left: auto;
+    width: 10%;
+}
+
+.attachmentCardCol {
+    height: 18rem;
+}
+
+.attachmentInsideDiv {
+    max-height: 10rem;
+    overflow: scroll;
+}
+
+.attachmentContent {
+    margin-left: 10px;
+}
+
+.attachmentIcon {
+    font-size: 28px;
+}
+
+.attachmentDivider {
+    margin: 10px 0px;
+}
+
+.cardInsideHeader {
+    margin-bottom: 5% !important;
+}
+
+.completionCard {
+    height: 17rem;
+}
+
+.labelStyle {
+    margin-bottom: 1%;
+}
+
+.dashboardRowSecond {
+    margin-top: 1%;
+}
+
+
+/* ------------------------------------- Milestone -------------------------------------- */
+.taskUpdateBtn {
+    border-radius: 5px !important;
+    border-color: #ffe58f;
+    /* width: 5rem !important; */
+    /* padding: 2% 10% !important; */
+    /* color: #ffe58f; */
+}
+
+.taskUpdateAlert {
+    width: 100%;
+}
+
+/* .gantt-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.task-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.task-bar {
+    position: relative;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.progress-indicator {
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(46, 204, 113, 0.7);
+}
+.task-details {
+    display: flex;
+    flex-direction: column;
+}
+.dependency-arrow {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent #ecf0f1;
+} */
+
+.gantt-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.task-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.task-bar {
+    position: relative;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.progress-indicator {
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(46, 204, 113, 0.7);
+}
+.task-details {
+    display: flex;
+    flex-direction: column;
+}
+.dependency-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}

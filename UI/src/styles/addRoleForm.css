@@ -1,0 +1,15 @@
+.addRoleForm .ant-col .ant-form-item-label {
+    width: 35%;
+    /* width: 50%; */
+    text-align: left;
+}
+
+.treeNodesDiv {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.treeNodesDiv .ant-tree-list-holder .ant-tree-list-holder-inner .ant-tree-treenode-switcher-open {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
